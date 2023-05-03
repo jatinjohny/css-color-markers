@@ -3,7 +3,7 @@ h1 {
 }
 
 .container {
-  background: gray;
+  background: rgb(234, 232, 232);
   width: 80%;
   margin: 0 auto;
   padding: 20px;
@@ -16,13 +16,22 @@ h1 {
 }
 
 .red {
-  background: red;
+  background: linear-gradient(
+    180deg,
+    rgb(122, 74, 14),
+    rgb(245, 62, 113),
+    rgb(162, 27, 27)
+  );
 }
 
 .green {
-  background: green;
+  background: linear-gradient(180deg, #55680d, #71f53e, #116c31);
 }
 
 .blue {
-  background: blue;
+  background: linear-gradient(
+    hsl(186, 76%, 16%),
+    hsl(223, 90%, 60%),
+    hsl(240, 56%, 42%)
+  );
 }

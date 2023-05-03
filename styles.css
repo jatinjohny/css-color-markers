@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  background: gray;
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.marker {
+  width: 200px;
+  height: 25px;
+  margin: 10px auto;
+}
+
+.red {
+  background: red;
+}
+
+.green {
+  background: green;
+}
+
+.blue {
+  background: blue;
+}
